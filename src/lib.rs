@@ -1,6 +1,6 @@
-#[cfg(test)]
-mod test {
-    #[test]
-    fn it_works() {
-    }
-}
+
+extern crate zip;
+
+pub mod read;
+
+pub use read::Reader;
